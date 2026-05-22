@@ -1,8 +1,8 @@
 ---
-company: "Apple"
-role: "Software Engineer"
-dateStart: "01/01/2020"
-dateEnd: "11/27/2022"
+company: "Purdue STyGIANet Lab"
+role: "Undergraduate Researcher"
+dateStart: "12/01/2025"
+dateEnd: "Present"
 ---
 
-Voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor. Sit amet consectetur adipisicing elit. Iure illo neque tempora.
+Profiled distributed GPU inference for reasoning workloads using vLLM, NVTX, Nsight Systems, and Nsight Compute. Analyzed prefill/decode traces, tool-call latency, CPU-GPU synchronization stalls, serialization overhead, and scheduling behavior to identify performance bottlenecks in multi-step reasoning pipelines. Also developed Python simulations for agentic workflow scheduling and produced reproducible datasets for GPU optimization research.

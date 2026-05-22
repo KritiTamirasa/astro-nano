@@ -1,8 +1,8 @@
 ---
-company: "Facebook"
-role: "Intern"
-dateStart: "07/01/2019"
-dateEnd: "12/31/2019"
+company: "Caterpillar"
+role: "Data Science Intern"
+dateStart: "01/01/2026"
+dateEnd: "Present"
 ---
 
-Iure illo neque tempora, voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor. Sit amet consectetur adipisicing elit.
+Built regression-based forecasting workflows and modular Python models to analyze AI data center investment, SMR capacity, cost trends, and financial scenarios through 2040. Developed scenario-based financial simulations for SMR power purchase agreements, quantified NPV outcomes, and identified revenue opportunities to support long-term planning.
