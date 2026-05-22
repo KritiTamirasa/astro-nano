@@ -1,76 +1,60 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
-date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+title: "Stock Scope"
+description: "Full-stack stock analysis platform with real-time market data, technical indicators, financial news, sentiment scoring, and AI-generated summaries."
+date: "Sep 2025"
+demoURL: ""
+repoURL: "https://github.com/Purdue-Momentum/StockScope"
 ---
 
-![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
+![Stock Scope Preview](/stockscope.jpg)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+Stock Scope is a full-stack stock analysis platform built to help users research stocks through real-time market data, technical indicators, financial news, sentiment analysis, and AI-generated summaries.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
-
-## 🚀 Deploy your own
-
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+I co-led a 9-member team developing the platform across frontend, backend, and machine learning features. The project combined Flask APIs, React components, financial data pipelines, FinBERT sentiment scoring, and Gemini-generated summaries to make stock research easier to understand and use.
 
 ## 📋 Features
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
+- ✅ Real-time market data integration
+- ✅ Technical indicators for stock analysis
+- ✅ Financial news aggregation
+- ✅ FinBERT sentiment scoring for news articles
+- ✅ Gemini-generated summaries of financial updates
+- ✅ Positive, Neutral, and Negative sentiment signals
+- ✅ Interactive watchlist features
+- ✅ Flask backend APIs
+- ✅ React frontend components
+- ✅ Caching and error handling
+- ✅ Responsive UI across multiple screen sizes
+- ✅ Full-stack architecture connecting backend services with frontend dashboards
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](/lighthouse.png)
+## 🧠 AI and Machine Learning
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+Stock Scope uses FinBERT to convert financial news into sentiment signals, helping users quickly understand whether recent coverage around a stock is generally positive, neutral, or negative.
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+The platform also uses Gemini-generated summaries to make financial news easier to digest. Instead of reading through long articles, users can view concise summaries and sentiment insights directly in the dashboard.
 
-## 📄 Configuration
+## 🛠️ Tech Stack
 
-The blog posts on the demo serve as the documentation and configuration.
+- Python
+- Flask
+- React
+- Scikit-learn
+- Transformers
+- Pandas
+- FinBERT
+- Gemini
+- Financial market data APIs
 
-## 💻 Commands
+## 👥 Team and Role
 
-All commands are run from the root of the project, from a terminal:
+I co-led a 9-member team and contributed across backend development, frontend implementation, machine learning integration, and product design. My work included building Flask APIs, developing React components, integrating sentiment scoring, and helping coordinate frontend and backend development.
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+## ⚙️ Backend and Frontend
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+The backend includes 10+ Flask APIs with caching and error handling to support scalable data access and client-server communication.
 
-## 🏛️ License
+The frontend includes 24 React components designed for dashboards, watchlists, sentiment views, and responsive user interaction across multiple screen sizes.
 
-MIT
+## 🚀 Impact
+
+Stock Scope delivered around 3,900 lines of scalable full-stack code and reusable UI patterns. The project strengthened my experience working across machine learning, backend systems, frontend development, and collaborative product engineering.
